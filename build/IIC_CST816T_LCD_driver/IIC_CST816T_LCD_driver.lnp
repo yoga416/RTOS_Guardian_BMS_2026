@@ -1,0 +1,1 @@
+--cpu Cortex-M4.fp --scatter "c:/Users/yuan/Desktop/IIC_CST816T_LCD_driver_2/IIC_CST816T_LCD_driver_2/build/IIC_CST816T_LCD_driver/IIC_CST816T_LCD_driver.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --list .\build\IIC_CST816T_LCD_driver\IIC_CST816T_LCD_driver.map

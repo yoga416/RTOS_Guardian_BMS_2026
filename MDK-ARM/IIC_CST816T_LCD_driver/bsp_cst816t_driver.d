@@ -1,0 +1,41 @@
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ..\BSP\CST816T\Driver\Src\bsp_cst816t_driver.c
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../BSP/CST816T/Driver/Inc/bsp_cst816t_driver.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../BSP/CST816T/Driver/Inc/bsp_cst816t_reg_define.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Components/easylogger/inc/elog.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Components/easylogger/inc/elog_cfg.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: D:\Embedded Systems Course (2026)\ProgramFile\MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: D:\Embedded Systems Course (2026)\ProgramFile\MDK\Core\ARM\ARMCC\Bin\..\include\stddef.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: D:\Embedded Systems Course (2026)\ProgramFile\MDK\Core\ARM\ARMCC\Bin\..\include\stdbool.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Core/Inc/main.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Core/Inc/stm32f4xx_hal_conf.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Include/core_cm4.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Include/cmsis_version.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+iic_cst816t_lcd_driver\bsp_cst816t_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h

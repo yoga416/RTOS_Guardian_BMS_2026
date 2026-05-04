@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "st7789_reg_define.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "st7789.h": "c",
+        "bsp_cst816t_reg_define.h": "c",
+        "freertos.h": "c"
+    }
+}
