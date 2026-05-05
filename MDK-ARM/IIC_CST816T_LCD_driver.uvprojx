@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F411xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../BSP/CST816T/Driver/Inc;../BSP/ST7789/Driver/Inc;../Components/RTT;../Components/easylogger/inc;../Middlewares/LVGL/lvgl;../Middlewares/LVGL;../Middlewares/LVGL/LVGL_ui;../Middlewares/LVGL/lvgl/src;../Middlewares/LVGL/lvgl/examples/porting;..\Middlewares\LVGL\LVGL_ui\analogclock;..\Middlewares\LVGL\LVGL_ui\guider_customer_fonts</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../BSP/CST816T/Driver/Inc;../BSP/ST7789/Driver/Inc;../Components/RTT;../Components/easylogger/inc;../Middlewares/LVGL/lvgl;../Middlewares/LVGL;../Middlewares/LVGL/LVGL_ui;../Middlewares/LVGL/lvgl/src;../Middlewares/LVGL/lvgl/examples/porting;..\Middlewares\LVGL\LVGL_ui\analogclock;..\Middlewares\LVGL\LVGL_ui\custom</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1803,14 +1803,39 @@
           <GroupName>Midderware/LVGL/ui</GroupName>
           <Files>
             <File>
+              <FileName>custom.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\custom\custom.c</FilePath>
+            </File>
+            <File>
               <FileName>lv_font_Amiko_Regular_10.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_Amiko_Regular_10.c</FilePath>
             </File>
             <File>
+              <FileName>lv_font_Amiko_Regular_14.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_Amiko_Regular_14.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_font_Amiko_Regular_21.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_Amiko_Regular_21.c</FilePath>
+            </File>
+            <File>
               <FileName>lv_font_Antonio_Regular_11.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_Antonio_Regular_11.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_font_Antonio_Regular_14.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_Antonio_Regular_14.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_font_Antonio_Regular_16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_Antonio_Regular_16.c</FilePath>
             </File>
             <File>
               <FileName>lv_font_LiberationSans_30.c</FileName>
@@ -1828,9 +1853,24 @@
               <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_montserratMedium_10.c</FilePath>
             </File>
             <File>
+              <FileName>lv_font_montserratMedium_12.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_montserratMedium_12.c</FilePath>
+            </File>
+            <File>
               <FileName>lv_font_montserratMedium_16.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_montserratMedium_16.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_font_montserratMedium_17.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_montserratMedium_17.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_font_montserratMedium_19.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\guider_fonts\lv_font_montserratMedium_19.c</FilePath>
             </File>
             <File>
               <FileName>events_init.c</FileName>
@@ -1843,9 +1883,14 @@
               <FilePath>..\Middlewares\LVGL\LVGL_ui\gui_guider.c</FilePath>
             </File>
             <File>
-              <FileName>setup_scr_screen.c</FileName>
+              <FileName>setup_scr_screen_alarm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\LVGL\LVGL_ui\setup_scr_screen.c</FilePath>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\setup_scr_screen_alarm.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LVGL\LVGL_ui\setup_scr_screen_lcd.c</FilePath>
             </File>
             <File>
               <FileName>widgets_init.c</FileName>

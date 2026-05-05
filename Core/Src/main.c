@@ -37,7 +37,7 @@
 #include "lvgl.h"
 #include "lvgl/examples/porting/lv_port_disp_template.h"
 #include "lvgl/examples/porting/lv_port_indev_template.h"
-#include "LVGL_ui/gui_guider.h"
+#include "gui_guider.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

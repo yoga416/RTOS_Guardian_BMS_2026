@@ -18,16 +18,30 @@ extern "C" {
 typedef struct
 {
   
-	lv_obj_t *screen;
-	bool screen_del;
-	lv_obj_t *screen_arc_1;
-	lv_obj_t *screen_label_1;
-	lv_obj_t *screen_chart_1;
-	lv_chart_series_t *screen_chart_1_0;
-	lv_obj_t *screen_label_2;
-	lv_obj_t *screen_label_3;
-	lv_obj_t *screen_label_4;
-	lv_obj_t *screen_label_5;
+	lv_obj_t *screen_lcd;
+	bool screen_lcd_del;
+	lv_obj_t *screen_lcd_arc_1;
+	lv_obj_t *screen_lcd_label_1;
+	lv_obj_t *screen_lcd_label_2;
+	lv_obj_t *screen_lcd_label_3;
+	lv_obj_t *screen_lcd_label_4;
+	lv_obj_t *screen_lcd_label_5;
+	lv_obj_t *screen_lcd_label_6;
+	lv_obj_t *screen_lcd_label_7;
+	lv_obj_t *screen_lcd_label_8;
+	lv_obj_t *screen_lcd_label_9;
+	lv_obj_t *screen_lcd_label_11;
+	lv_obj_t *screen_lcd_btn_1;
+	lv_obj_t *screen_lcd_btn_1_label;
+	lv_obj_t *screen_alarm;
+	bool screen_alarm_del;
+	lv_obj_t *screen_alarm_label_1;
+	lv_obj_t *screen_alarm_spangroup_1;
+	lv_span_t *screen_alarm_spangroup_1_span;
+	lv_obj_t *screen_alarm_spangroup_2;
+	lv_span_t *screen_alarm_spangroup_2_span;
+	lv_obj_t *screen_alarm_btn_1;
+	lv_obj_t *screen_alarm_btn_1_label;
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -51,13 +65,15 @@ void init_keyboard(lv_ui *ui);
 extern lv_ui guider_ui;
 
 
-void setup_scr_screen(lv_ui *ui);
+void setup_scr_screen_lcd(lv_ui *ui);
+void setup_scr_screen_alarm(lv_ui *ui);
 
-LV_FONT_DECLARE(lv_font_LiberationSans_30)
+LV_FONT_DECLARE(lv_font_LiberationSans_40)
 LV_FONT_DECLARE(lv_font_montserratMedium_16)
-LV_FONT_DECLARE(lv_font_montserratMedium_10)
-LV_FONT_DECLARE(lv_font_Antonio_Regular_11)
-LV_FONT_DECLARE(lv_font_Amiko_Regular_10)
+LV_FONT_DECLARE(lv_font_Antonio_Regular_14)
+LV_FONT_DECLARE(lv_font_Amiko_Regular_14)
+LV_FONT_DECLARE(lv_font_montserratMedium_17)
+LV_FONT_DECLARE(lv_font_montserratMedium_12)
 
 
 #ifdef __cplusplus

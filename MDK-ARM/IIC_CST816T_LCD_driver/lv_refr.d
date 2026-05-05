@@ -61,4 +61,3 @@ iic_cst816t_lcd_driver\lv_refr.o: ..\Middlewares\LVGL\lvgl\src\core\lv_theme.h
 iic_cst816t_lcd_driver\lv_refr.o: ..\Middlewares\LVGL\lvgl\src\core\../misc/lv_gc.h
 iic_cst816t_lcd_driver\lv_refr.o: ..\Middlewares\LVGL\lvgl\src\core\../font/lv_font_fmt_txt.h
 iic_cst816t_lcd_driver\lv_refr.o: ..\Middlewares\LVGL\lvgl\src\core\../extra/others/snapshot/lv_snapshot.h
-iic_cst816t_lcd_driver\lv_refr.o: ..\Middlewares\LVGL\lvgl\src\core\../widgets/lv_label.h
