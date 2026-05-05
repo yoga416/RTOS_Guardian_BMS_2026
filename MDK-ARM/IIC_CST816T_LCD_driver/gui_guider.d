@@ -130,3 +130,4 @@ iic_cst816t_lcd_driver\gui_guider.o: ../Middlewares/LVGL/lvgl/src/extra/widgets/
 iic_cst816t_lcd_driver\gui_guider.o: ../Middlewares/LVGL/lvgl/src/extra/widgets/span/lv_span.h
 iic_cst816t_lcd_driver\gui_guider.o: D:\Embedded Systems Course (2026)\ProgramFile\MDK\Core\ARM\ARMCC\Bin\..\include\stdio.h
 iic_cst816t_lcd_driver\gui_guider.o: ..\Middlewares\LVGL\LVGL_ui\gui_guider.h
+iic_cst816t_lcd_driver\gui_guider.o: ..\Middlewares\LVGL\LVGL_ui\widgets_init.h

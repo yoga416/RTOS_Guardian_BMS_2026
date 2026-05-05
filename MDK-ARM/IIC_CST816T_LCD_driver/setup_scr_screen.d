@@ -132,4 +132,3 @@ iic_cst816t_lcd_driver\setup_scr_screen.o: D:\Embedded Systems Course (2026)\Pro
 iic_cst816t_lcd_driver\setup_scr_screen.o: ..\Middlewares\LVGL\LVGL_ui\gui_guider.h
 iic_cst816t_lcd_driver\setup_scr_screen.o: ..\Middlewares\LVGL\LVGL_ui\events_init.h
 iic_cst816t_lcd_driver\setup_scr_screen.o: ..\Middlewares\LVGL\LVGL_ui\widgets_init.h
-iic_cst816t_lcd_driver\setup_scr_screen.o: ..\Middlewares\LVGL\LVGL_ui\analogclock\lv_analogclock.h

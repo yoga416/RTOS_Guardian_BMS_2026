@@ -1,5 +1,5 @@
 /*
-* Copyright 2025 NXP
+* Copyright 2026 NXP
 * NXP Proprietary. This software is owned or controlled by NXP and may only be used strictly in
 * accordance with the applicable license terms. By expressly accepting such terms or by downloading, installing,
 * activating and/or otherwise using the software, you are agreeing that you have read, and that you agree to
@@ -10,6 +10,8 @@
 #include "lvgl.h"
 #include <stdio.h>
 #include "gui_guider.h"
+#include "widgets_init.h"
+
 #if LV_USE_GUIDER_SIMULATOR && LV_USE_FREEMASTER
 #include "gg_external_data.h"
 #endif
@@ -74,13 +76,17 @@ void init_scr_del_flag(lv_ui *ui)
 {
 
     ui->screen_del = true;
-    ui->screen_1_del = true;
-    ui->screen_2_del = true;
 }
 
 void setup_ui(lv_ui *ui)
 {
     init_scr_del_flag(ui);
+    init_keyboard(ui);
     setup_scr_screen(ui);
     lv_scr_load(ui->screen);
+}
+
+void init_keyboard(lv_ui *ui)
+{
+
 }

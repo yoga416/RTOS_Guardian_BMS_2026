@@ -1,1 +1,1 @@
-GEN_CSRCS += lv_font_alimama_12.c
+GEN_CSRCS += lv_font_LiberationSans_30.c lv_font_montserratMedium_16.c lv_font_montserratMedium_10.c lv_font_Antonio_Regular_11.c lv_font_Amiko_Regular_10.c

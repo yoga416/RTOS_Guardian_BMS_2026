@@ -1,5 +1,5 @@
 /*
-* Copyright 2025 NXP
+* Copyright 2026 NXP
 * NXP Proprietary. This software is owned or controlled by NXP and may only be used strictly in
 * accordance with the applicable license terms. By expressly accepting such terms or by downloading, installing,
 * activating and/or otherwise using the software, you are agreeing that you have read, and that you agree to
@@ -20,14 +20,14 @@ typedef struct
   
 	lv_obj_t *screen;
 	bool screen_del;
-	lv_obj_t *screen_img_1;
-	lv_obj_t *screen_analog_clock_1;
-	lv_obj_t *screen_1;
-	bool screen_1_del;
-	lv_obj_t *screen_1_label_1;
-	lv_obj_t *screen_2;
-	bool screen_2_del;
-	lv_obj_t *screen_2_label_1;
+	lv_obj_t *screen_arc_1;
+	lv_obj_t *screen_label_1;
+	lv_obj_t *screen_chart_1;
+	lv_chart_series_t *screen_chart_1_0;
+	lv_obj_t *screen_label_2;
+	lv_obj_t *screen_label_3;
+	lv_obj_t *screen_label_4;
+	lv_obj_t *screen_label_5;
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -46,20 +46,18 @@ void init_scr_del_flag(lv_ui *ui);
 
 void setup_ui(lv_ui *ui);
 
+void init_keyboard(lv_ui *ui);
 
 extern lv_ui guider_ui;
 
 
 void setup_scr_screen(lv_ui *ui);
-void setup_scr_screen_1(lv_ui *ui);
-void setup_scr_screen_2(lv_ui *ui);
-LV_IMG_DECLARE(_biaopan1_alpha_240x240);
-LV_IMG_DECLARE(_time_alpha_40x5);
-LV_IMG_DECLARE(_fen_alpha_70x5);
-LV_IMG_DECLARE(_miao_alpha_70x5);
 
-LV_FONT_DECLARE(lv_font_alimama_12)
-LV_FONT_DECLARE(lv_font_alimama_16)
+LV_FONT_DECLARE(lv_font_LiberationSans_30)
+LV_FONT_DECLARE(lv_font_montserratMedium_16)
+LV_FONT_DECLARE(lv_font_montserratMedium_10)
+LV_FONT_DECLARE(lv_font_Antonio_Regular_11)
+LV_FONT_DECLARE(lv_font_Amiko_Regular_10)
 
 
 #ifdef __cplusplus

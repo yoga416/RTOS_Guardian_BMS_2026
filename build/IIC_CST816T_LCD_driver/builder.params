@@ -7,7 +7,7 @@
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
     "threadNum": 16,
-    "rootDir": "d:\\Embedded Systems Course (2026)\\下载资料\\IIC_CST816T_LCD_driver_2\\IIC_CST816T_LCD_driver_2",
+    "rootDir": "d:\\Embedded_Systems_app_install\\program_2\\RTOS_Guardian_BMS",
     "dumpPath": "build\\IIC_CST816T_LCD_driver",
     "outDir": "build\\IIC_CST816T_LCD_driver",
     "ram": 131072,
@@ -142,21 +142,21 @@
             "rw-base": "",
             "xo-base": "",
             "link-scatter": [
-                "\"d:/Embedded Systems Course (2026)/下载资料/IIC_CST816T_LCD_driver_2/IIC_CST816T_LCD_driver_2/build/IIC_CST816T_LCD_driver/IIC_CST816T_LCD_driver.sct\""
+                "d:/Embedded_Systems_app_install/program_2/RTOS_Guardian_BMS/build/IIC_CST816T_LCD_driver/IIC_CST816T_LCD_driver.sct"
             ]
         }
     },
     "env": {
         "KEIL_OUTPUT_DIR": "IIC_CST816T_LCD_driver",
-        "workspaceFolder": "d:\\Embedded Systems Course (2026)\\下载资料\\IIC_CST816T_LCD_driver_2\\IIC_CST816T_LCD_driver_2",
-        "workspaceFolderBasename": "IIC_CST816T_LCD_driver_2",
-        "OutDir": "d:\\Embedded Systems Course (2026)\\下载资料\\IIC_CST816T_LCD_driver_2\\IIC_CST816T_LCD_driver_2\\build\\IIC_CST816T_LCD_driver",
+        "workspaceFolder": "d:\\Embedded_Systems_app_install\\program_2\\RTOS_Guardian_BMS",
+        "workspaceFolderBasename": "RTOS_Guardian_BMS",
+        "OutDir": "d:\\Embedded_Systems_app_install\\program_2\\RTOS_Guardian_BMS\\build\\IIC_CST816T_LCD_driver",
         "OutDirRoot": "build",
         "OutDirBase": "build\\IIC_CST816T_LCD_driver",
         "ProjectName": "IIC_CST816T_LCD_driver",
         "ConfigName": "IIC_CST816T_LCD_driver",
-        "ProjectRoot": "d:\\Embedded Systems Course (2026)\\下载资料\\IIC_CST816T_LCD_driver_2\\IIC_CST816T_LCD_driver_2",
-        "ExecutableName": "d:\\Embedded Systems Course (2026)\\下载资料\\IIC_CST816T_LCD_driver_2\\IIC_CST816T_LCD_driver_2\\build\\IIC_CST816T_LCD_driver\\IIC_CST816T_LCD_driver",
+        "ProjectRoot": "d:\\Embedded_Systems_app_install\\program_2\\RTOS_Guardian_BMS",
+        "ExecutableName": "d:\\Embedded_Systems_app_install\\program_2\\RTOS_Guardian_BMS\\build\\IIC_CST816T_LCD_driver\\IIC_CST816T_LCD_driver",
         "ChipPackDir": "",
         "ChipName": "",
         "SYS_Platform": "win32",

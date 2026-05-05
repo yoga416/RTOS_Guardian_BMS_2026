@@ -1,5 +1,5 @@
 /*
-* Copyright 2025 NXP
+* Copyright 2026 NXP
 * NXP Proprietary. This software is owned or controlled by NXP and may only be used strictly in
 * accordance with the applicable license terms. By expressly accepting such terms or by downloading, installing,
 * activating and/or otherwise using the software, you are agreeing that you have read, and that you agree to
@@ -11,6 +11,7 @@
 #include "gui_guider.h"
 #include "widgets_init.h"
 #include <stdlib.h>
+#include <string.h>
 
 
 __attribute__((unused)) void kb_event_cb (lv_event_t *e) {
@@ -75,18 +76,4 @@ void clock_count(int *hour, int *min, int *sec)
 }
 #endif
 
-
-
-extern int screen_analog_clock_1_hour_value;
-extern int screen_analog_clock_1_min_value;
-extern int screen_analog_clock_1_sec_value;
-
-void screen_analog_clock_1_timer(lv_timer_t *timer)
-{
-    clock_count(&screen_analog_clock_1_hour_value, &screen_analog_clock_1_min_value, &screen_analog_clock_1_sec_value);
-    if (lv_obj_is_valid(guider_ui.screen_analog_clock_1))
-    {
-        lv_analogclock_set_time(guider_ui.screen_analog_clock_1, screen_analog_clock_1_hour_value, screen_analog_clock_1_min_value, screen_analog_clock_1_sec_value);
-    }
-}
 

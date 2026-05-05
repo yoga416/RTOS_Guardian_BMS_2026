@@ -139,7 +139,7 @@ void lv_port_disp_init(void)
      * Note that, in lv_conf.h you can enable GPUs that has built-in support in LVGL.
      * But if you have a different GPU you can use with this callback.*/
     // disp_drv.gpu_fill_cb = gpu_fill;
-
+		disp_drv.rotated = LV_DISP_ROT_180;                    
     /*Finally register the driver*/
     lv_disp_drv_register(&disp_drv);
 }
